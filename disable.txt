@@ -1,0 +1,27 @@
+Blacklist adds and mozilla and google domains 
+Disable Auto-update checking  
+Disable Auto-update for Extentions 
+Uncheck Use Tracking Protection in Private Browsing to block known trackers 
+Uncheck Query OCSP responder servers to confirm the current validity of certificates	 
+Uncheck Firefox Data Collection and Use 
+Disable Chatty Features 
+
+about:config 
+  browser.aboutHomeSnippets.updateUrl:blank 
+  browser.casting.enabled:false 
+  browser.safebrowsing.downloads.remote.enabled;false 
+  browser.safebrowsing.enabled;false 
+  browser.safebrowsing.malware.enabled;false 
+  browser.safebrowsing.passwords.enabled;false 
+  browser.safebrowsing.phishing.enabled;false 
+  browser.search.geoip.url:blank 
+  browser.selfsupport.url;blank 
+  browser.startup.homepage_override.mstone;ignore 
+  browser.urlbar.filter.javascript;false 
+  extensions.blocklist.enabled;false 
+  extensions.getAddons.cache.enabled;false 
+  media.gmp-gmpopenh264.enabled;false 
+  network.captive-portal-service.enabled;false 
+  network.dns.disablePrefetch;true 
+  network.http.speculative-parallel-limit:0 
+  network.prefetch-next;false	 
